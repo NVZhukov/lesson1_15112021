@@ -1,12 +1,12 @@
 package lesson_2;
 
-public class MySelfWork {
+public class MySecondHomeWork {
     public static void main(String[] args) {
 //        cheсkSum();
 //        cheсkNum();
 //        positiveOrNegativeNum(9);
 //        printText("Hello", 3);
-       isYear(2000);
+        isLeapYear();
     }
 
 //    public static boolean cheсkSum(int a, int b) {
@@ -29,7 +29,17 @@ public class MySelfWork {
 //        for (int i=0; i<a;i++) {
 //            System.out.println(str);
 //        }
-    public static void isYear(int year){
+
+//    public static void isLeapYear(int year){
+//    if(year%4==0 && year%400==0){
+//        System.out.println("год високосный");
+//    } else if(year%100==0){
+//        System.out.println("год не високосный");
+//    }else {
+//        System.out.println("год високосный");
+//    }
+//    }
+        public static boolean isLeapYear(int year){
 
     }
 }
