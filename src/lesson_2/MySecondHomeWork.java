@@ -5,7 +5,7 @@ public class MySecondHomeWork {
         cheсkSum();
         cheсkPositiveOrNegative();
         isPositiveOrNegative();
-        printText("Привет",5);
+        printText();
 
 
     }
