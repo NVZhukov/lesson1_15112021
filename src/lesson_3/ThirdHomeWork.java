@@ -41,11 +41,11 @@ public class ThirdHomeWork {
         for (int i = 0; i < square.length; i++) {
             for (int j = 0; j < square.length; j++) {
                 if (i == j) {
-                    System.out.print("1 ");
+                    System.out.printf("%3d",1);
                 } else if (i == square.length - 1 - j) {
-                    System.out.print("1 ");
+                    System.out.printf("%3d",1);
                 } else {
-                    System.out.print(square[i][j] + " ");
+                    System.out.printf("%3d", square[i][j]);
                 }
             }
             System.out.println();
