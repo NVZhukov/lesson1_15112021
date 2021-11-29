@@ -76,7 +76,9 @@ public class XOGame {
         System.out.println("Компьютер походил в точку " + (x + 1) + " " + (y + 1));
         map[y][x] = DOT_O;
     }
-
+    /* Метод корректно работает только когда
+    *  DOTS_TO_WIN = SIZE
+     */
     public static boolean checkWin(char symb) {
         int counter = 0;
 
